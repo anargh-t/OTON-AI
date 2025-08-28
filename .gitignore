@@ -1,0 +1,47 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Model outputs and checkpoints
+outputs/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+checkpoint-*/
+
+# Training artifacts
+training_args.bin
+*.log
+
+
+# Data files (if they're large)
+data/*.csv
+data/*.json
+data/*.jsonl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
