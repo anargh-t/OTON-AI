@@ -53,15 +53,15 @@ Tata Group operates across 10+ business sectors with $128B+ in revenue, but stra
 
 ### **Scene 3: Strategic Recommendations** (2 minutes)
 **AI Output**:
-- Market entry strategy with specific timelines
-- Resource allocation recommendations
-- Risk assessment and mitigation strategies
-- Expected ROI projections
+- 🎯 **Strategic Recommendation**: Clear, high-level strategic direction
+- 💡 **Key Insight**: Critical business insight or market analysis
+- 📋 **Recommendation**: Specific strategic recommendation
+- ✅ **Actionable Items**: Numbered list of concrete, implementable actions
 
 **Demo Actions**:
-- Present executive-ready strategic report
-- Show interactive scenario planning
-- Demonstrate risk analysis capabilities
+- Present structured CXO-level strategic report with visual formatting
+- Show interactive scenario planning with actionable next steps
+- Demonstrate risk analysis capabilities with clear mitigation strategies
 
 ---
 
@@ -79,8 +79,8 @@ Tata Group operates across 10+ business sectors with $128B+ in revenue, but stra
 
 ### **3. Executive-Ready Strategic Reports**
 - **Before**: Complex data requiring interpretation
-- **After**: Clear, actionable strategic recommendations
-- **Impact**: Faster executive decision-making and implementation
+- **After**: Structured CXO-level reports with Strategic Recommendations, Key Insights, and numbered Actionable Items
+- **Impact**: Faster executive decision-making and implementation with clear next steps
 
 ### **4. Risk-Aware Strategic Planning**
 - **Before**: Reactive risk management
@@ -94,8 +94,9 @@ Tata Group operates across 10+ business sectors with $128B+ in revenue, but stra
 ### **OTON-AI Model Specifications**
 - **Base Model**: TinyLlama-1.1B (open-access, enterprise-ready)
 - **Fine-tuning**: LoRA (Low-Rank Adaptation) for strategic intelligence
-- **Training Data**: 12 strategic enterprise intelligence scenarios
+- **Training Data**: 11 strategic enterprise intelligence scenarios with structured CXO-level responses
 - **Specialization**: CXO-level strategic decision making across the Tata network
+- **Response Format**: Structured reports with Strategic Recommendations, Key Insights, and Actionable Items
 
 ### **Data Integration Capabilities**
 - **Internal Data**: Tata company performance metrics and capabilities

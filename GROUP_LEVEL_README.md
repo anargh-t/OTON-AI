@@ -57,15 +57,30 @@ peft_config = LoraConfig(
 [Internal data | External data | Market context | Company information]
 
 ### Strategic Analysis:
-[AI-generated strategic insights, recommendations, and action plans]
+[AI-generated structured response with Strategic Recommendation, Key Insight, Recommendation, and Actionable Items]
+```
+
+### **Structured Response Format**
+The model now generates CXO-level responses in a structured format:
+
+```
+Strategic Recommendation: [High-level strategic direction]
+Key Insight: [Critical business insight or market analysis]
+Recommendation: [Specific strategic recommendation]
+Actionable Items:
+1. [First actionable item]
+2. [Second actionable item]
+3. [Third actionable item]
+4. [Fourth actionable item]
 ```
 
 ### **Model Specifications**
 - **Base Model**: `TinyLlama/TinyLlama-1.1B-Chat-v1.0` (open-access, lightweight, good for testing)
 - **Alternative Models**: `mistralai/Mistral-7B-Instruct-v0.2` (open-access, higher performance)
 - **Sequence Length**: 1024 tokens (increased for strategic content)
-- **Training Data**: 12 strategic enterprise intelligence tasks
-- **Specialization**: CXO-level strategic decision making
+- **Training Data**: 11 strategic enterprise intelligence tasks with structured CXO-level responses
+- **Specialization**: CXO-level strategic decision making with structured output format
+- **Response Format**: Structured reports with Strategic Recommendations, Key Insights, and Actionable Items
 
 ## 📊 **Training Data Structure**
 
@@ -83,8 +98,9 @@ peft_config = LoraConfig(
 
 ### **Data Quality Features**
 - **Executive Language**: CXO-appropriate terminology and insights
+- **Structured Format**: Consistent Strategic Recommendation, Key Insight, Recommendation, and Actionable Items format
 - **Quantified Recommendations**: Specific metrics, timelines, and ROI projections
-- **Actionable Insights**: Clear next steps and implementation guidance
+- **Actionable Insights**: Clear next steps and implementation guidance with numbered action items
 - **Risk-Aware Analysis**: Balanced risk-reward considerations
 
 ## 🚀 **Getting Started**
@@ -157,9 +173,15 @@ python group_level_infer.py `
 
 ### **4. Web Interface**
 ```bash
-# Launch CXO-friendly Streamlit app
+# Launch CXO-friendly Streamlit app with structured response display
 streamlit run group_level_app.py
 ```
+
+The web interface now features:
+- **Structured Response Parsing**: Automatically detects and parses structured responses
+- **Visual Formatting**: Displays responses with proper formatting using Streamlit components
+- **Fallback Support**: Handles both structured and unstructured responses gracefully
+- **Interactive Templates**: Pre-loaded strategic scenarios for quick testing
 
 ## 💡 **Strategic Use Cases**
 
@@ -234,6 +256,20 @@ streamlit run group_level_app.py
 - **Access Control**: Role-based permissions for different CXO levels
 - **Audit Trail**: Complete logging of all strategic queries and responses
 - **Performance Monitoring**: Track accuracy and relevance metrics
+
+## 🆕 **Recent Updates & Improvements**
+
+### **Structured CXO-Level Response Format**
+- **Enhanced Training Data**: Updated all 11 training examples with structured format
+- **Response Parsing**: Intelligent parsing of structured responses with fallback support
+- **Visual Display**: Streamlit app now displays responses with proper formatting
+- **Consistent Format**: All responses follow Strategic Recommendation → Key Insight → Recommendation → Actionable Items structure
+
+### **Improved User Experience**
+- **Template Integration**: Pre-loaded strategic scenarios for quick testing
+- **Error Handling**: Robust parsing that handles both structured and unstructured responses
+- **Visual Indicators**: Clear section headers with emojis for better readability
+- **Actionable Focus**: Numbered action items for immediate implementation
 
 ## 🔮 **Future Enhancements**
 
